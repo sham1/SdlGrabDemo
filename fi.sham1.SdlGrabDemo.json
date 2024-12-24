@@ -1,0 +1,27 @@
+{
+  "id": "fi.sham1.SdlGrabDemo",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "24.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "sdl-grab-demo",
+
+  "finish-args": [
+    "--share=ipc",
+    "--socket=x11",
+    "--device=dri"
+  ],
+
+  "modules": [
+    {
+      "name": "SdlGrabDemo",
+      "buildsystem": "meson",
+      "builddir": true,
+      "sources": [
+        {
+          "type": "git",
+          "url": "https://github.com/sham1/SdlGrabDemo.git"
+        }
+      ]
+    }
+  ]
+}

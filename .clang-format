@@ -1,0 +1,41 @@
+BasedOnStyle: LLVM
+
+AlignAfterOpenBracket: BlockIndent
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AlwaysBreakAfterReturnType: All
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Linux
+BreakBeforeTernaryOperators: true
+ColumnLimit: 120
+IncludeBlocks: Regroup
+#IncludeCategories:
+#  - Regex: '.*'
+#    Priority: 5
+# IncludeIsMainRegex: ""
+#IncludeIsMainSourceRegex: ""
+IndentCaseBlocks: false
+IndentCaseLabels: false
+IndentGotoLabels: false
+IndentWidth: 8
+IndentWrappedFunctionNames: false
+InsertNewlineAtEOF: true
+#KeepFormFeed: true
+LineEnding: LF
+PointerAlignment: Right
+ReferenceAlignment: Pointer
+SortIncludes: CaseSensitive
+SortUsingDeclarations: LexicographicNumeric
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeParens: ControlStatementsExceptControlMacros
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceBeforeSquareBrackets: false
+TabWidth: 8
+UseTab: AlignWithSpaces
